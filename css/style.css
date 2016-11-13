@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+body{
+	background: #ececec;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #a0a0a0;
+	min-width: 320px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+h3{
+	font-size: 24px;
+	font-weight: 700;
+}
+.btn-red{
+	background: #d51e08;
+	color: #fff;
+}
+.btn-red:hower{
+	background: #ec4835;
+}
+/*Large Devaces, Wide Screens*/
+@media screen and (max-width: 1200px) {
+
+}
+
+/*Medium Devaces, Desktops*/
+@media screen and (max-width: 992px) {
+
+}
+
+/*Small Devaces, Tablets*/
+@media screen and (max-width: 768px) {
+
+}
+
+/*Extra Small Devaises, Phone*/
+@media screen and (max-width: 480px) {
+
+}
