@@ -8,37 +8,85 @@ ul{
 a{
 	text-decoration: none;
 }
-
+/*Общие настройки для всего сайта*/
 body{
-	background: #ececec;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	color: #a0a0a0;
-	min-width: 320px;
+	background: #ececec;/*цвет фона*/
+	font-family: 'Open Sans', sans-serif;/*Шрифт контента*/
+	font-size: 13px;/*Размер шрифта*/
+	color: #a0a0a0;/*Цвет шрифта*/
+	min-width: 320px;/*Минимальная ширина*/
 }
 img{
-	max-width: 100%;
-	height: auto;
+	max-width: 100%;/*Максимальная ширина картинки*/
+	height: auto;/*Высота определяется автоматически*/
 }
+/*Заголовки*/
 h3{
 	font-size: 24px;
 	font-weight: 700;
 }
+/*Кнопка верхнее меню*/
 .btn-red{
 	background: #d51e08;
 	color: #fff;
 }
-.btn-red:hower{
+.btn-red:hower{/**/
 	background: #ec4835;
+}
+/*_______________________Header______________________________*/
+.menu-top .navbar{
+	margin-bottom: 0;/*убираем margin для кнопки*/
+	background: #fff;
+	padding: 20px 0;/*с верху и снизу 20px отступ, по бокам 0*/
+	text-transform: uppercase;
+}
+.menu-top .navbar-default .navbar-nav > li > a{
+	color: #000;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	transition: background .3s;
+}
+.menu-top .navbar-default .navbar-nav > li > a:hover {
+    background: #ccc;
+    color: #000;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    transition: background .3s;
+    text-decoration: underline;
+}
+.menu-top .navbar-default .navbar-nav > li > a.btn-red{
+	color: #fff;
+	border-right: 3px;
+	border-radius: 5px;
+	padding: 5px 20px;
+}
+.menu-top .navbar-default .navbar-nav > li > a.btn-red:hover{
+	background: #eee;
+	text-decoration: none;
+}	
+.menu-top .navbar-default .navbar-nav > li > a> .glyphicon{
+	margin-right: 10px;
+	font-size: 16px;
+}
+.menu-top .container, .menu-top .navbar-collapse{
+		padding-left: 0;
+}
+
+.flag{/*фото флага в меню*/
+	margin-right: 5px;
+	position: relative;
+	top: -1px;
 }
 /*Large Devaces, Wide Screens*/
 @media screen and (max-width: 1200px) {
+	
 
 }
 
 /*Medium Devaces, Desktops*/
 @media screen and (max-width: 992px) {
-
+		.menu-top .navbar-nav{
+		float: none !important;
 }
 
 /*Small Devaces, Tablets*/
@@ -46,7 +94,17 @@ h3{
 
 }
 
+@media screen and (max-width: 767px) {
+.menu-top .navbar-default .navbar-nav > li > a:hover {
+    background: #eee;
+}
+.menu-top .container, .menu-top .navbar-collapse{
+		padding-left: 15px;
+}
 /*Extra Small Devaises, Phone*/
 @media screen and (max-width: 480px) {
+	
+
+}
 
 }
