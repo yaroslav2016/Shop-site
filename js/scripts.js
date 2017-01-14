@@ -1,7 +1,10 @@
 
 $(function(){
-	$('carousel').carousel({
-		interval:5.0;
-	})
+	$('.carousel').carousel({
+		interval:false
+	});
 
+$('.search').on('click', function(){
+	$('.main-menu .navbar-form').slideToggle();
+});
 });
