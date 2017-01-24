@@ -1,293 +1,304 @@
 *{
-	margin: 0;
-	padding: 0;
+margin: 0;
+padding: 0;
 }
 ul{
-	list-style: none;
+list-style: none;
 }
 a{
-	text-decoration: none;
+text-decoration: none;
 }
 /*Общие настройки для всего сайта*/
 body{
-	background: #ececec;/*цвет фона*/
-	font-family: 'Open Sans', sans-serif;/*Шрифт контента*/
-	font-size: 13px;/*Размер шрифта*/
-	color: #a0a0a0;/*Цвет шрифта*/
-	min-width: 320px;/*Минимальная ширина*/
+background: #ececec;/*цвет фона*/
+font-family: 'Open Sans', sans-serif;/*Шрифт контента*/
+font-size: 13px;/*Размер шрифта*/
+color: #423a3a;/*Цвет шрифта*/
+min-width: 320px;/*Минимальная ширина*/
 }
 img{
-	max-width: 100%;/*Максимальная ширина картинки*/
-	height: auto;/*Высота определяется автоматически*/
+max-width: 100%;/*Максимальная ширина картинки*/
+height: auto;/*Высота определяется автоматически*/
 }
 /*Заголовки*/
 h3{
-	font-size: 24px;
-	font-weight: 700;
+font-size: 24px;
+font-weight: 700;
 }
 /*Кнопка верхнее меню*/
 .btn-red{
-	background: #d51e08;
-	color: #fff;
+background: #d51e08;
+color: #fff;
 }
 .btn-red:hower{/**/
-	background: #ec4835;
+background: #ec4835;
 }
 /*_______________________Header______________________________*/
 .menu-top .navbar{
-	margin-bottom: 0;/*убираем margin для кнопки*/
-	background: #fff;
-	padding: 20px 0;/*с верху и снизу 20px отступ, по бокам 0*/
-	text-transform: uppercase;
+margin-bottom: 0;/*убираем margin для кнопки*/
+background: #fff;
+padding: 20px 0;/*с верху и снизу 20px отступ, по бокам 0*/
+text-transform: uppercase;
 }
 .menu-top .navbar-default .navbar-nav > li > a{
-	color: #000;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	transition: background .3s;
+color: #000;
+padding-bottom: 5px;
+padding-top: 5px;
+transition: background .3s;
 }
 .menu-top .navbar-default .navbar-nav > li > a:hover {
-	background: #ccc;
-	color: #000;
-	padding-bottom: 5px;
-	padding-top: 5px;
-	transition: background .3s;
-	text-decoration: underline;
+background: #ccc;
+color: #000;
+padding-bottom: 5px;
+padding-top: 5px;
+transition: background .3s;
+text-decoration: underline;
 }
 .menu-top .navbar-default .navbar-nav > li > a.btn-red{
-	color: #fff;
-	border-right: 3px;
-	border-radius: 5px;
-	padding: 5px 20px;
+color: #fff;
+border-right: 3px;
+border-radius: 5px;
+padding: 5px 20px;
 }
 .menu-top .navbar-default .navbar-nav > li > a.btn-red:hover{
-	background: #eee;
-	text-decoration: none;
+background: #eee;
+text-decoration: none;
 }	
 .menu-top .navbar-default .navbar-nav > li > a> .glyphicon{
-	margin-right: 10px;
-	font-size: 16px;
+margin-right: 10px;
+font-size: 16px;
 }
 .menu-top .container, .menu-top .navbar-collapse{
-	padding-left: 0;
+padding-left: 0;
 }
 .flag{/*фото флага в меню*/
-	margin-right: 5px;
-	position: relative;
-	top: -1px;
+margin-right: 5px;
+position: relative;
+top: -1px;
 }
 .menu-carousel .item{
-	min-height: 600px;
+min-height: 600px;
 }
 .menu-carousel .bgslide{
-	background-size: cover;
-	background-position: center center;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 100%;
-	height: 100%;
+background-size: cover;
+background-position: center center;
+left: 0;
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
 }
 .carousel.fade{
-	opacity: 1;
+opacity: 1;
 }
 .carousel.fade .item{
-	opacity: 0;
-	transition: opacity .5s;
-	display: block;
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
-	z-index: ;
+opacity: 0;
+transition: opacity .5s;
+display: block;
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: ;
 }
 .carousel.fade .item.active{
-	opacity: 1;
-	position: relative;
-	z-index: ;
+opacity: 1;
+position: relative;
+z-index: ;
 }
 .menu-carousel .carousel-caption{
-	left: 0;
-	top: 250px;
+left: 0;
+top: 250px;
 }
 .menu-carousel .carousel-caption h1{
-	font-weight: 700;
-	font-size: 48px;
+font-weight: 700;
+font-size: 48px;
 }
 .menu-carousel .carousel-caption h3{
-	font-size: 30px;
-	margin-bottom: 40px;
+font-size: 30px;
+margin-bottom: 40px;
 }
 .menu-carousel .carousel-caption .btn-red{
-	padding: 20px 30px;
-	border-radius: 5px;
-	color: #fff;
-	font-size: 24px;
+padding: 20px 30px;
+border-radius: 5px;
+color: #fff;
+font-size: 24px;
 }
 .menu-carousel .carousel-caption .btn-red{
-	text-decoration: none;
+text-decoration: none;
 }
 .menu-carousel .container{
-	position: relative;
+position: relative;
 }
 .menu-carousel .carousel-control{
-	z-index: 10;
+z-index: 10;
 }
 .carousel-indicators-wrap{
-	position: absolute;
-	width: 100%;
-	bottom: 0;
+position: absolute;
+width: 100%;
+bottom: 0;
 }
 .main-menu .navbar-inverse{
-	background: transparent;
-	border: none;
+background: transparent;
+border: none;
 }
 .main-menu{
-	position: absolute;
-	z-index: 21;
-	width: 100%;
-	top: 30px;
+position: absolute;
+z-index: 21;
+width: 100%;
+top: 30px;
 
 }
 .main-menu-bg{
-	background: #000;
-	border-radius: 3px;
+background: #000;
+border-radius: 3px;
 }
 .main-menu .navbar-inverse .navbar-nav > li > a{
-	color: #fff;
-	font-style: 16px;
-	transition: background .5s;
+color: #fff;
+font-style: 16px;
+transition: background .5s;
 }
 .main-menu .navbar-inverse .navbar-nav > li a:hover{
-	text-decoration: underline;
+text-decoration: underline;
 }
 .main-carousel .main-menu .navbar-brand{
-	padding: 0;
-	margin-left: 30px;
+padding: 0;
+margin-left: 30px;
 }
 .main-menu .navbar-brand img{
-	float: left;
-	margin-top: -15px;
-	margin-left: 30px;
+float: left;
+margin-top: -15px;
+margin-left: 30px;
 }
 .main-menu .navbar-brand span{
-	display: inline-block;
-	padding-left: 15px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: #fff;
+display: inline-block;
+padding-left: 15px;
+font-weight: 700;
+text-transform: uppercase;
+color: #fff;
 }
 .search{
-	position: absolute;
-	color: #fff;
-	font-size: 22px;
-	line-height: 50px;
-	right: 25px;
-	cursor: pointer;
-	z-index: 30;
-	display: none
+position: absolute;
+color: #fff;
+font-size: 22px;
+line-height: 50px;
+right: 25px;
+cursor: pointer;
+z-index: 30;
+display: none;
 }
 
+.main-slogan{
+	background: #fff;
+	text-align: center;
+	padding: 60px 0px 50px 0; ;
+	border-top: 2px solid #bdbdbd;
+	border-bottom: 3px solid #cfcfcf;
+}
 
+.main-slogan h1{
+	font-size: 30px;
+	margin: 0;
+}
 /*Large Devaces, Wide Screens*/
 @media screen and (max-width: 1200px) {
-	menu-top .navbar-nav.
-	menu-menu .navbar-nav{
-		float:none none !important;
-	}
-	.menu-carousel .carousel-caption{
-		left: 20%;
-	}
-	.main-menu .navbar-form{
-		/*margin-left: 125px;*/
-		position: absolute;
-		right: 15px;
-		background: rgba(0, 0, 0, 0.5);
-		padding: 15px;
-		margin: 0;
-		display: none;
-	}
-	.search{
-		display: block;
-	}
+menu-top .navbar-nav.
+menu-menu .navbar-nav{
+	float:none none !important;
+}
+.menu-carousel .carousel-caption{
+	left: 20%;
+}
+.main-menu .navbar-form{
+	/*margin-left: 125px;*/
+	position: absolute;
+	right: 15px;
+	background: rgba(0, 0, 0, 0.5);
+	padding: 15px;
+	margin: 0;
+	display: none;
+}
+.search{
+	display: block;
+}
 }
 
 /*Medium Devaces, Desktops*/
 @media screen and (max-width: 992px) {
+.menu-carousel .carousel-caption h1{
+	font-size: 40px;
+}
+.menu-carousel .carousel-caption h3{
+	font-size: 22px;	
+}
+.main-menu .navbar-inverse .navbar-nav > li >a{
+	font-size: 14px;
+}
+
+/*Small Devaces, Tablets*/
+@media screen and (max-width: 768px) {
+	.main-menu .container{
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.menu-top .navbar-default .navbar-nav > li > a:hover {
+		background: #eee;
+	}
+	.menu-top .container, .menu-top .navbar-collapse{
+		padding-left: 15px;
+	}
 	.menu-carousel .carousel-caption h1{
-		font-size: 40px;
+		font-size: 38px;
 	}
 	.menu-carousel .carousel-caption h3{
-		font-size: 22px;	
+		font-size: 20px;	
 	}
-	.main-menu .navbar-inverse .navbar-nav > li >a{
+	/*button*/
+	.menu-carousel .carousel-caption .btn-red{
+		padding: 15px 20px;
+		border-radius: 5px;
+		color: #fff;
+		font-size: 16px;
+	}
+	}.main-menu .navbar-inverse .navbar-nav > li >a:hover{
+		text-decoration: none;
+		background: #222;
+	}
+	.main-menu .navbar-form{
+		margin:8px 0;
+	}
+	.main-menu .navbar-brand img{
+		max-height: 50px;
+	}
+	.main-menu .navbar-toggle.collapsed +.navbar-brand img{
+		max-height: none;
+		position: relative;
+		z-index: 20;
+	}
+	.search{
+		display: none;
+	}
+	.main-menu .navbar-form{
+	display: block;
+	position: relative;
+	right: 0;
+	background: transparent;
+}
+}
+
+/*Extra Small Devaises, Phone*/
+@media screen and (max-width: 480px) {
+	.menu-carousel .carousel-caption .btn-red{
 		font-size: 14px;
 	}
-
-	/*Small Devaces, Tablets*/
-	@media screen and (max-width: 768px) {
-		.main-menu .container{
-			padding-left: 0;
-			padding-right: 0;
-		}
+	.main-menu .navbar-toggle.collapsed +.navbar-brand img{
+		max-height: 80px;
 	}
-
-	@media screen and (max-width: 767px) {
-		.menu-top .navbar-default .navbar-nav > li > a:hover {
-			background: #eee;
-		}
-		.menu-top .container, .menu-top .navbar-collapse{
-			padding-left: 15px;
-		}
-		.menu-carousel .carousel-caption h1{
-			font-size: 38px;
-		}
-		.menu-carousel .carousel-caption h3{
-			font-size: 20px;	
-		}
-		/*button*/
-		.menu-carousel .carousel-caption .btn-red{
-			padding: 15px 20px;
-			border-radius: 5px;
-			color: #fff;
-			font-size: 16px;
-		}
-		}.main-menu .navbar-inverse .navbar-nav > li >a:hover{
-			text-decoration: none;
-			background: #222;
-		}
-		.main-menu .navbar-form{
-			margin:8px 0;
-		}
-		.main-menu .navbar-brand img{
-			max-height: 50px;
-		}
-		.main-menu .navbar-toggle.collapsed +.navbar-brand img{
-			max-height: none;
-			position: relative;
-			z-index: 20;
-		}
-		.search{
-			display: none;
-		}
-		.main-menu .navbar-form{
-		display: block;
-		position: relative;
-		right: 0;
-		background: transparent;
-	}
-	}
-
-	/*Extra Small Devaises, Phone*/
-	@media screen and (max-width: 480px) {
-		.menu-carousel .carousel-caption .btn-red{
-			font-size: 14px;
-		}
-		.main-menu .navbar-toggle.collapsed +.navbar-brand img{
-			max-height: 80px;
-		}
-	}
+}
 
 
-	}
+}
 
