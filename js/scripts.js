@@ -1,7 +1,7 @@
 
 $(function(){
 	$('.carousel').carousel({
-		interval:4.0;
+		interval:3.0;
 	});
 
 // $('.search').on('click', function(){
