@@ -337,6 +337,14 @@ menu-menu .navbar-nav{
 }
 }
 
+@media screen and (max-width: 540px){
+	.sidebar .col-xs-6{
+		width: 100%;
+	}
+}
+
+
+
 /*Extra Small Devaises, Phone*/
 @media screen and (max-width: 480px) {
 	.menu-carousel .carousel-caption .btn-red{
