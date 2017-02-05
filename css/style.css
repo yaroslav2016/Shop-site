@@ -30,7 +30,7 @@ font-weight: 700;
 background: #d51e08;
 color: #fff;
 }
-.btn-red:hower{/**/
+.btn-red:hover{
 background: #ec4835;
 }
 /*_______________________Header______________________________*/
@@ -167,8 +167,7 @@ margin-left: 30px;
 }
 .main-menu .navbar-brand img{
 float: left;
-margin-top: -15px;
-margin-left: 30px;
+
 }
 .main-menu .navbar-brand span{
 display: inline-block;
@@ -194,7 +193,7 @@ display: none;
 .main-slogan{
 	background: #fff;
 	text-align: center;
-	padding: 60px 0px 50px 0; ;
+	padding: 50px 0;
 	border-top: 2px solid #bdbdbd;
 	border-bottom: 3px solid #cfcfcf;
 }
@@ -227,7 +226,7 @@ display: none;
 	margin-bottom: 0;
 }
 .widget ul li a{
-	font-style: 16px;
+	font-size: 16px;
 	line-height: 30px;
 	color: #000;
 	display: block;
@@ -235,8 +234,88 @@ display: none;
 .widget ul li.more a{
 	color: #68a0d3;
 }
+.sidebar .carousel{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.sidebar .sidebar-carousel-caption{
+	background: #fff;
+	border-bottom: 1px solid #e1e1e1;
 
+}
+.sidebar .sidebar-carousel-caption div{
+	padding: 20px;
 
+}
+.sidebar .sidebar-carousel-caption h4{
+	margin-top: 0;
+	font-weight: 700;
+	font-size: 14px;
+}
+.sidebar .sidebar-carousel-caption p{
+	margin-bottom: 0;
+	font-size: 12px;
+	color:#5b5b5b;
+}
+.sidebar .carousel-indicators{
+	background: #fff none repeat scroll 0 0;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	margin-left: 0;
+	padding: 10px 0;
+}
+.sidebar .carousel-indicators li{
+	background: #9a9a9a;
+	width: 10px;
+	height: 10px;
+	margin: 0 5px;
+}
+.sidebar .carousel-indicators li.active{
+	background: #5b5b5b;
+}
+.sidebar .banner{
+	background: #fff;
+	margin-bottom: 40px;
+}
+.sidebar .banner img{
+	margin-bottom: 35px;
+}
+.sidebar .banner h3,
+.sidebar .banner h3{
+	text-transform: uppercase;
+	margin: 0;
+	font-size: 28px;
+	font-weight: bold;
+}
+.sidebar .banner a.btn-red{
+	padding: 8px 25px;
+	margin: 30px 0;
+	display: inline-block;
+	font-style: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-radius: 3px;
+	transition: all .5s;
+}
+.sidebar .baner a.btn-red:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.sidebar .about{
+	padding-right: 35px;
+}
+.sidebar .about h3{
+	margin: 0 0 25px
+}
+.sidebar .about p{
+	color: #585858;
+	margin-bottom: 30px;
+}
+.sidebar .about span{
+	color: #0a94b2;
+}
 
 
 
@@ -245,8 +324,8 @@ display: none;
 
 /*Large Devaces, Wide Screens*/
 @media screen and (max-width: 1200px) {
-menu-top .navbar-nav.
-menu-menu .navbar-nav{
+menu-top .navbar-nav,
+main-menu .navbar-nav{
 	float:none none !important;
 }
 .menu-carousel .carousel-caption{
@@ -264,7 +343,11 @@ menu-menu .navbar-nav{
 .search{
 	display: block;
 }
+.sidebar .carousel,
+.sidebar .banner{
+	margin-right: 10px;
 }
+
 
 /*Medium Devaces, Desktops*/
 @media screen and (max-width: 992px) {
@@ -274,7 +357,7 @@ menu-menu .navbar-nav{
 .menu-carousel .carousel-caption h3{
 	font-size: 22px;	
 }
-.main-menu .navbar-inverse .navbar-nav > li >a{
+.main-menu .navbar-inverse .navbar-nav > li > a{
 	font-size: 14px;
 }
 .sidebar{
@@ -282,13 +365,18 @@ menu-menu .navbar-nav{
 	padding-top: 0;
 	border-right: none;
 }
-
+.sidebar .carousel,
+.sidebar .banner{
+	margin-right: 0;
+}
+}
 /*Small Devaces, Tablets*/
 @media screen and (max-width: 768px) {
 	.main-menu .container{
 		padding-left: 0;
 		padding-right: 0;
 	}
+
 }
 
 @media screen and (max-width: 767px) {
@@ -330,7 +418,7 @@ menu-menu .navbar-nav{
 		display: none;
 	}
 	.main-menu .navbar-form{
-	display: block;
+	display: block !important;
 	position: relative;
 	right: 0;
 	background: transparent;
@@ -341,6 +429,10 @@ menu-menu .navbar-nav{
 	.sidebar .col-xs-6{
 		width: 100%;
 	}
+.sidebar .carousel,
+.sidebar .banner{
+	display: inline-block;
+}
 }
 
 
