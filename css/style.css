@@ -13,7 +13,7 @@ body{
 background: #ececec;/*цвет фона*/
 font-family: 'Open Sans', sans-serif;/*Шрифт контента*/
 font-size: 13px;/*Размер шрифта*/
-color: #423a3a;/*Цвет шрифта*/
+color: #000000;/*Цвет шрифта*/
 min-width: 320px;/*Минимальная ширина*/
 }
 img{
@@ -212,9 +212,7 @@ display: none;
 	padding-bottom: 30px;
 	margin-bottom: 30px;
 }
-.content{
-	padding: 50px 0 70px;
-}
+
 .widget h3,
 .content h3{
 	margin-top: 0;
@@ -283,9 +281,17 @@ display: none;
 	margin-bottom: 35px;
 }
 .sidebar .banner h3,
-.sidebar .banner h3{
+.sidebar .banner h2{
 	text-transform: uppercase;
 	margin: 0;
+}
+.banner{
+	max-width: 200px;
+}
+.sidebar .banner h3{
+	font-size: 18px;
+}
+.sidebar .banner h2{
 	font-size: 28px;
 	font-weight: bold;
 }
@@ -293,7 +299,7 @@ display: none;
 	padding: 8px 25px;
 	margin: 30px 0;
 	display: inline-block;
-	font-style: 18px;
+	font-size: 18px;
 	font-weight: bold;
 	text-transform: uppercase;
 	border-radius: 3px;
@@ -316,8 +322,77 @@ display: none;
 .sidebar .about span{
 	color: #0a94b2;
 }
+.content{
+	padding: 50px 0 70px;
+}
+.product{
+	background:#fff;
+	border: 1px solid #c0c0c0;
+	padding: 25px 15px;
+	text-align: center;
+	position:relative;
+	height: 452px;
+	overflow: hidden;
+	transition: all .5s;
+}
 
-
+.product:hover{
+	box-shadow: 0 0 16px rgba(0, 0, 0, .5);
+}
+.product-favorites{
+	position: absolute;
+	top: 10;
+	right: 20px;
+}
+.product-favorites span{
+	color: #909090;
+	font-size: 20px;
+}
+.product-sale{
+	position: absolute;
+	left: 15px;
+	top: 15px;
+	width: 50px;
+	height: 50px;
+	border:1px solid #d1d1d1;
+	line-height: 45px;
+	text-transform: uppercase;
+}
+.product-img{
+	height: 200px;
+	width: 100%;
+}
+.product-titlle a{
+	font-weight: 700;
+	color: #000;
+	text-transform: uppercase;
+}
+.product-desc{
+	max-height: 60px;
+	overflow: hidden;
+}
+.product-price{
+	font-size: 18px;
+	font-weight: bold;
+	color: #d51e08;
+	margin-bottom: 20px;
+}
+.product-by{
+	position: absolute;
+	bottom: 28px;
+	left: 0;
+	text-align: center;
+	width: 100%;
+}
+.product-by .btn{
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 3px;
+}
+.product-by .btn:hover{
+	background: #ececec;
+}
 
 
 
@@ -369,6 +444,9 @@ main-menu .navbar-nav{
 .sidebar .banner{
 	margin-right: 0;
 }
+.products-row{
+	margin: 20px 0;
+}
 }
 /*Small Devaces, Tablets*/
 @media screen and (max-width: 768px) {
@@ -376,7 +454,16 @@ main-menu .navbar-nav{
 		padding-left: 0;
 		padding-right: 0;
 	}
-
+.content{
+	padding-top: 10px;
+	padding-bottom: 0;
+}
+.product{
+	margin-bottom: 10px; 
+}
+.products-row{
+	margin: 20px 0;
+}
 }
 
 @media screen and (max-width: 767px) {
