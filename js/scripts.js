@@ -1,6 +1,6 @@
 $(function(){
 	$('.carousel').carousel({
-		interval: false
+		interval: 5000
 	});
 
 	$('.search').on('click', function(){
