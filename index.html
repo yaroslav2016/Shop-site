@@ -8,12 +8,22 @@
     <!-- Подключение шрифта Open Sans-->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,300&subset=latin,cyrillic" rel="stylesheet" type="text/css">
     <!-- Bootstrap -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/elastislide.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet">
+   <!--  <link href="css/demo.css" rel="stylesheet"> -->
+    <script src="js/modernizr.custom.17475.js"></script>
+
+
+
+
+
 </head>
 <body>
 
-    <!-- удалить потом -->
+    <!-- удалить потом --><script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + 
+    ':35729/livereload.js?snipver=1"></' + 'script>')</script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?LR-verbose&snipver=1&LiveTest=1"></' + 'script>')</script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35730/livereload.js?LR-verbose&snipver=1&LiveTest=1"></' + 'script>')</script>
     <a href="#LiveTest" onclick="location.reload(true)" target="_blank">Start testing</a>
@@ -487,7 +497,7 @@
                                         <h3>introducing</h3>
                                         <h2>bombshell</h2>
                                         <h3>forever</h3>
-                                        <a href="#" class="btn-red">shop now</a>
+                                        <a href="#" class="btn btn-red">shop now</a>
                                     </div>
                                 </div>
                             </div>              
@@ -526,17 +536,46 @@
                 </div>
             </div>
         </section>
-        <section>
+        
+            <div class="bottom-slider">
             <div class="container">
-                <div class="row"><!--  plagin for slider(Elastislide) -->
-                    
-                </div>
+            <!--  plagin for slider(Elastislide) -->
+                <ul id="elastislide" class="elastislide-list">
+                    <li><a href="#"><img src="img/partner1.jpg" alt="partner4" /></a></li>
+                    <li><a href="#"><img src="img/partner2.jpg" alt="partner2" /></a></li>
+                    <li><a href="#"><img src="img/partner4.jpg" alt="partner3" /></a></li>
+                    <li><a href="#"><img src="img/partner5.jpg" alt="partner1" /></a></li>
+                    <li><a href="#"><img src="img/partner1.jpg" alt="partner2" /></a></li>
+                    <li><a href="#"><img src="img/partner2.jpg" alt="partner3" /></a></li>
+                    <li><a href="#"><img src="img/partner4.jpg" alt="partner1" /></a></li>
+                    <li><a href="#"><img src="img/partner5.jpg" alt="partner2" /></a></li>
+                    <li><a href="#"><img src="img/partner1.jpg" alt="partner3" /></a></li>
+                    <li><a href="#"><img src="img/partner2.jpg" alt="partner1" /></a></li>
+                    <li><a href="#"><img src="img/partner4.jpg" alt="partner2" /></a></li>
+                    <li><a href="#"><img src="img/partner5.jpg" alt="partner3" /></a></li>
+                    <li><a href="#"><img src="img/partner1.jpg" alt="partner4" /></a></li>
+                    <li><a href="#"><img src="img/partner2.jpg" alt="partner2" /></a></li>
+                    <li><a href="#"><img src="img/partner4.jpg" alt="partner3" /></a></li>
+                    <li><a href="#"><img src="img/partner5.jpg" alt="partner1" /></a></li>
+                    <li><a href="#"><img src="img/partner1.jpg" alt="partner2" /></a></li>
+                    <li><a href="#"><img src="img/partner2.jpg" alt="partner3" /></a></li>
+                    <li><a href="#"><img src="img/partner4.jpg" alt="partner1" /></a></li>
+                    <li><a href="#"><img src="img/partner5.jpg" alt="partner2" /></a></li>
+                    <li><a href="#"><img src="img/partner1.jpg" alt="partner3" /></a></li>
+                    <li><a href="#"><img src="img/partner2.jpg" alt="partner1" /></a></li>
+                    <li><a href="#"><img src="img/partner4.jpg" alt="partner2" /></a></li>
+                    <li><a href="#"><img src="img/partner5.jpg" alt="partner3" /></a></li>
+                   
+                   
+                </ul>
+                <!-- End Elastislide Carousel -->
             </div>
-        </section>
+            </div>
 
-
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="js/modernizr.custom.17475.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.elastislide.js"></script>
         <script src="js/scripts.js"></script>
     </body>
     </html>

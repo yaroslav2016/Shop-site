@@ -437,6 +437,21 @@ h3{
 .bottom-content .form-inline .btn:hover{
 	background: #d96340;
 }
+.bottom-slider{
+	padding: 35px 0;
+	background: #fff;
+	box-shadow: none;
+}
+.elastislide-wrapper {
+    box-shadow: none;
+}
+.elastislide-gorizontal nav span.elastislide-next{
+ right: 0;
+}
+.elastislide-wrapper nav span{
+	background: #ddd url(../img/nav.png) no-repeat 4px 3px;
+}
+
 
 /*Large Devaces, Wide Screens*/
 @media screen and (max-width: 1200px) {
